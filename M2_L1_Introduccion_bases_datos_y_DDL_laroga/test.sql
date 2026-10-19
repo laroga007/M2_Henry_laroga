@@ -1,0 +1,2 @@
+SELECT 5 * 3;
+SELECT 10 + 2;
