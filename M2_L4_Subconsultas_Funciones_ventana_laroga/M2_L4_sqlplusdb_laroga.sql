@@ -313,7 +313,7 @@ FROM payments;
 -- LAST_VALUE trae el ultimo valor de cada grupo
 -- por defecto muestra la fila actual, sin aclaracion devuelve el valor de su propia fila
 -- hay que aclararle que mire todo el grupo completo:
--- ROWS BETWEEN UNBOUNDED PREDECING AND UNBOUNDED FOLLOWING
+-- ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
 -- el último curso que pagó cada estudiante
 SELECT student_id, course_id, payment_date,
        LAST_VALUE(course_id) OVER (PARTITION BY student_id ORDER BY payment_date
@@ -350,7 +350,7 @@ GROUP BY student_id;
 
 -- Despivotear (en lugar de UNPIVOT)
 -- convierte columnas en filas
--- en Postgress se hace con CROSS JOIN LATERAL y VALUES
+-- en PostgresSQL se hace con CROSS JOIN LATERAL y VALUES
 -- precio del curso y monto pagado como filas:
 SELECT p.payment_id, v.concepto, v.valor
 FROM payments p
