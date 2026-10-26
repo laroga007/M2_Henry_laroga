@@ -17,6 +17,7 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 | [Lecture 2](M2_L2_Sublenguaje_DML_laroga) | Sublenguaje DML | `INSERT`, `SELECT`, `WHERE`, `GROUP BY`, `HAVING`, `UPDATE`, `DELETE` y `ALTER TABLE` sobre CompanyDB y HealthTrackDB |
 | [Lecture 3](M2_L3_Consultas_compuestas_GBD_laroga) | Consultas compuestas y gestión de bases de datos | `JOIN`, operaciones de conjuntos, indicadores RFM, índices, triggers, transacciones y vistas sobre VentasDB |
 | [Lecture 4](M2_L4_Subconsultas_Funciones_ventana_laroga) | Subconsultas, CTE y funciones de ventana | Subconsultas, CTE recursivas, `ROW_NUMBER`, `RANK`, `LAG`, `LEAD`, `EXPLAIN ANALYZE` e índices sobre SQLPlusDB |
+| [Lecture 5](M2_L5_Introduccion_al_modelado_de_datos_laroga) | Introducción al modelado de datos | Modelo estrella a partir de un dataset plano (RetailX), carga desde staging y homework de diseño dimensional (MusicFlow) |
 
 ## Proyectos de la Lecture 1
 
@@ -35,3 +36,5 @@ En la carpeta de la Lecture 1 quedan además el script original de Hospital_BD e
 - Los archivos llevan el prefijo del módulo y la lecture (`M2_L3_...`) y terminan en `_laroga`.
 - Cada script aclara en su encabezado en qué base se ejecuta y si fue adaptado de la consigna.
 - Cuando la consigna tiene una inconsistencia, se resuelve y se explica en el script y en el README de la lecture.
+
+|
