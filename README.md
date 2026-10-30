@@ -18,6 +18,7 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 | [Lecture 3](M2_L3_Consultas_compuestas_GBD_laroga) | Consultas compuestas y gestión de bases de datos | `JOIN`, operaciones de conjuntos, indicadores RFM, índices, triggers, transacciones y vistas sobre VentasDB |
 | [Lecture 4](M2_L4_Subconsultas_Funciones_ventana_laroga) | Subconsultas, CTE y funciones de ventana | Subconsultas, CTE recursivas, `ROW_NUMBER`, `RANK`, `LAG`, `LEAD`, `EXPLAIN ANALYZE` e índices sobre SQLPlusDB |
 | [Lecture 5](M2_L5_Introduccion_al_modelado_de_datos_laroga) | Introducción al modelado de datos | Modelo estrella a partir de un dataset plano (RetailX), carga desde staging y homework de diseño dimensional (MusicFlow) |
+| [Lecture 6](M2_L6_Modelado_avanzado_de_datos_laroga) | Modelado avanzado de datos | Tipos de tablas de hechos, métricas aditivas y derivadas, SCD Tipo 1, 2 y 3, mini-dimensión, dimensión degenerada, particionamiento y vistas materializadas (plataforma de delivery) |
 
 ## Proyectos de la Lecture 1
 
