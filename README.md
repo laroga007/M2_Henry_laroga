@@ -7,6 +7,7 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 - **DBeaver** para escribir y ejecutar SQL.
 - **PostgreSQL** como motor principal. Los tutoriales de las lectures 1 y 2 están en **SQL Server**.
 - **Docker** para levantar los motores en la computadora.
+- **Snowflake** (interfaz web Snowsight) para el data warehouse en la nube de la Lecture 7.
 - **VS Code** y **Git** para Python y control de versiones.
 
 ## Lectures
@@ -19,6 +20,7 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 | [Lecture 4](M2_L4_Subconsultas_Funciones_ventana_laroga) | Subconsultas, CTE y funciones de ventana | Subconsultas, CTE recursivas, `ROW_NUMBER`, `RANK`, `LAG`, `LEAD`, `EXPLAIN ANALYZE` e índices sobre SQLPlusDB |
 | [Lecture 5](M2_L5_Introduccion_al_modelado_de_datos_laroga) | Introducción al modelado de datos | Modelo estrella a partir de un dataset plano (RetailX), carga desde staging y homework de diseño dimensional (MusicFlow) |
 | [Lecture 6](M2_L6_Modelado_avanzado_de_datos_laroga) | Modelado avanzado de datos | Tipos de tablas de hechos, métricas aditivas y derivadas, SCD Tipo 1, 2 y 3, mini-dimensión, dimensión degenerada, particionamiento y vistas materializadas (plataforma de delivery) |
+| [Lecture 7](M2_L7_Data_warehousing_laroga) | Data warehousing en Snowflake | Warehouses, stages, `COPY INTO`, capas RAW y DW, enmascaramiento de datos, roles y permisos (RetailX), y homework TravelNow con una vista consultada desde Python |
 
 ## Proyectos de la Lecture 1
 
@@ -37,5 +39,3 @@ En la carpeta de la Lecture 1 quedan además el script original de Hospital_BD e
 - Los archivos llevan el prefijo del módulo y la lecture (`M2_L3_...`) y terminan en `_laroga`.
 - Cada script aclara en su encabezado en qué base se ejecuta y si fue adaptado de la consigna.
 - Cuando la consigna tiene una inconsistencia, se resuelve y se explica en el script y en el README de la lecture.
-
-|

@@ -1,0 +1,5 @@
+booking_id,customer_id,destination,departure_date,nights,price_usd
+2001,101,Barcelona,2023-11-01,5,850.0
+2002,102,París,2023-11-05,3,620.0
+2003,103,Nueva York,2023-12-10,7,1400.0
+2004,101,Tokio,2024-01-15,10,2100.0
