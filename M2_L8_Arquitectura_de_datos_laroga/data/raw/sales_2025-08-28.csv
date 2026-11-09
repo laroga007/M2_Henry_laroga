@@ -1,0 +1,4 @@
+order_id,timestamp,customer_id,product_id,amount,currency,payment_type,country
+A00001,2025-08-28T08:12:10,U001,P101,199.90,USD,CreditCard,AR
+A00002,2025-08-28T09:33:47,U003,P104,89.00,USD,DebitCard,MX
+A00003,2025-08-28T10:05:02,U005,P102,39.99,USD,PayPal,PE

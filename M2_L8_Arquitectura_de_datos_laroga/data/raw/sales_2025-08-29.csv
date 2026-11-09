@@ -1,0 +1,4 @@
+order_id,timestamp,customer_id,product_id,amount,currency,payment_type,country
+A00004,2025-08-29T11:00:01,U004,P103,14.50,USD,CreditCard,UY
+A00005,2025-08-29T11:03:33,U002,P105,24.99,USD,PayPal,CL
+A00006,2025-08-29T11:04:55,U001,P101,199.90,USD,DebitCard,AR

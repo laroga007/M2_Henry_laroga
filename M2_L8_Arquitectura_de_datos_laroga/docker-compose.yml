@@ -1,0 +1,16 @@
+# Kafka para la demo de DataShop (ingesta de eventos en tiempo real)
+#
+# Reemplaza al docker-compose original del curso (docker-compose_original_bitnami.yml), que no levanta:
+# - las imágenes bitnami/*:latest dejaron de publicarse gratis en 2025;
+# - Kafka 4 ya no usa Zookeeper (modo KRaft);
+# - anunciaba el broker como kafka:9092, un nombre que la Mac no resuelve.
+#
+# La imagen oficial apache/kafka levanta un broker único que escucha en localhost:9092,
+# que es donde se conecta kafka_event_producer.py.
+
+services:
+  kafka:
+    image: apache/kafka:4.0.0
+    container_name: kafka
+    ports:
+      - "9092:9092"

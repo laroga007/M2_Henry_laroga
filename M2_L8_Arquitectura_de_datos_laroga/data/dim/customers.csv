@@ -1,0 +1,6 @@
+customer_id,name,email,country
+U001,Customer 1,user1@example.com,AR
+U002,Customer 2,user2@example.com,CL
+U003,Customer 3,user3@example.com,MX
+U004,Customer 4,user4@example.com,UY
+U005,Customer 5,user5@example.com,PE

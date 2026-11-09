@@ -1,0 +1,76 @@
+
+version: "3.8"
+
+services:
+  zookeeper:
+    image: bitnami/zookeeper:latest
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+
+  kafka:
+    image: bitnami/kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    depends_on:
+      - zookeeper
+
+  spark:
+    image: bitnami/spark:latest
+    container_name: spark
+    environment:
+      - SPARK_MODE=master
+    ports:
+      - "7077:7077"   # Spark master
+      - "8080:8080"   # Spark master UI
+    volumes:
+      - ./spark-apps:/opt/work
+    depends_on:
+      - kafka
+
+  spark-worker:
+    image: bitnami/spark:latest
+    container_name: spark-worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+    ports:
+      - "8081:8081"   # Spark worker UI
+    depends_on:
+      - spark
+
+  # --- Hadoop opcional (comentar/activar según necesidad) ---
+  # hadoop-namenode:
+  #   image: bitnami/hadoop:latest
+  #   container_name: hadoop-namenode
+  #   environment:
+  #     - HADOOP_MODE=namenode
+  #   ports:
+  #     - "9870:9870"   # UI NameNode
+  #   volumes:
+  #     - hadoop_namenode:/bitnami/hadoop
+  #
+  # hadoop-datanode:
+  #   image: bitnami/hadoop:latest
+  #   container_name: hadoop-datanode
+  #   environment:
+  #     - HADOOP_MODE=datanode
+  #     - HADOOP_NAMENODE_URI=hdfs://hadoop-namenode:8020
+  #   ports:
+  #     - "9864:9864"   # UI DataNode
+  #   volumes:
+  #     - hadoop_datanode:/bitnami/hadoop
+  #   depends_on:
+  #     - hadoop-namenode
+
+volumes:
+  hadoop_namenode:
+  hadoop_datanode:

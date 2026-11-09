@@ -1,0 +1,6 @@
+product_id,category,brand,price,currency
+P101,Electronics,BrandA,199.90,USD
+P102,Home,BrandB,39.99,USD
+P103,Beauty,BrandC,14.50,USD
+P104,Sports,BrandA,89.00,USD
+P105,Toys,BrandB,24.99,USD

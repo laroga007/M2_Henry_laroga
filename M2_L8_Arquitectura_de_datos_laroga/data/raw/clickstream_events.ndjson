@@ -1,0 +1,3 @@
+{"event_id":"E00001","timestamp":"2025-08-29T12:00:00","customer_id":"U001","event_type":"view","product_id":"P101"}
+{"event_id":"E00002","timestamp":"2025-08-29T12:00:10","customer_id":"U002","event_type":"add_to_cart","product_id":"P105"}
+{"event_id":"E00003","timestamp":"2025-08-29T12:00:20","customer_id":"U004","event_type":"purchase","product_id":"P103","amount":14.50,"currency":"USD"}
