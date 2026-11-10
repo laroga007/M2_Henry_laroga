@@ -22,6 +22,7 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 | [Lecture 6](M2_L6_Modelado_avanzado_de_datos_laroga) | Modelado avanzado de datos | Tipos de tablas de hechos, métricas aditivas y derivadas, SCD Tipo 1, 2 y 3, mini-dimensión, dimensión degenerada, particionamiento y vistas materializadas (plataforma de delivery) |
 | [Lecture 7](M2_L7_Data_warehousing_laroga) | Data warehousing en Snowflake | Warehouses, stages, `COPY INTO`, capas RAW y DW, enmascaramiento de datos, roles y permisos (RetailX), y homework TravelNow con una vista consultada desde Python |
 | [Lecture 8](M2_L8_Arquitectura_de_datos_laroga) | Fundamentos de arquitectura de datos | Maqueta de la arquitectura de DataShop: ingesta en tiempo real con Kafka en Docker, detección de fraude, ETL batch de ventas diarias y automatización con Python |
+| [Lecture 9](M2_L9_Arquitectura_en_la_nube_laroga) | Arquitectura en la nube con AWS | Diseño de la arquitectura de GreenSense (API Gateway, S3, Lambda, RDS, DynamoDB), maqueta local con validación, alertas y linaje en PostgreSQL, y estimación de costos en la AWS Pricing Calculator |
 
 ## Proyectos de la Lecture 1
 
