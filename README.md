@@ -28,6 +28,17 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 | [Lecture 9](M2_L9_Arquitectura_en_la_nube_laroga) | Arquitectura en la nube con AWS | Diseño de la arquitectura de GreenSense (API Gateway, S3, Lambda, RDS, DynamoDB), maqueta local con validación, alertas y linaje en PostgreSQL, y estimación de costos en la AWS Pricing Calculator |
 | [Lecture 10](M2_L10_Datos_no_estructurados_laroga) | Datos no estructurados y bases NoSQL | MongoDB con Compass: ejemplo de la lecture (asistente de conocimiento con índice de texto y búsqueda semántica con embeddings) y homework de tienda virtual (CRUD, índices, agregaciones e índice TTL) |
 
+## Proyecto Integrador
+
+El homework de cuatro lectures es un avance del Proyecto Integrador del módulo (FleetLogix), que está en su propio repositorio: [ProyectoM2_LauraGarmendia](https://github.com/laroga007/ProyectoM2_LauraGarmendia).
+
+| Avance | Lecture |
+|---|---|
+| Avance 1 | [Lecture 4](M2_L4_Subconsultas_Funciones_ventana_laroga) |
+| Avance 2 | [Lecture 6](M2_L6_Modelado_avanzado_de_datos_laroga) |
+| Avance 3 | [Lecture 8](M2_L8_Arquitectura_de_datos_laroga) |
+| Avance 4 | [Lecture 9](M2_L9_Arquitectura_en_la_nube_laroga) |
+
 ## Proyectos de la Lecture 1
 
 Estos trabajos tienen su propio repositorio y están incluidos como submódulos dentro de la carpeta de la Lecture 1:

@@ -4,6 +4,8 @@
 
 Práctica del Módulo 2 de Henry Data Science. GreenSense opera estaciones sensoriales en ciudades de América Latina que miden temperatura, humedad y partículas finas (PM2.5), y registran eventos críticos como desconexiones o alertas por contaminación. Necesita pasar de una arquitectura manual y local a una en la nube que escale, esté disponible 24/7, automatice la ingesta, alerte ante eventos críticos y registre el linaje de los datos.
 
+> **Homework:** el homework de esta lecture es el **Avance 4 del Proyecto Integrador** del módulo (FleetLogix), que está en su propio repositorio: [ProyectoM2_LauraGarmendia](https://github.com/laroga007/ProyectoM2_LauraGarmendia). Esta carpeta contiene la práctica de la lecture.
+
 El trabajo tiene tres partes:
 
 1. El **diseño** de la arquitectura en AWS.
@@ -227,7 +229,7 @@ CloudWatch y AWS Backup no se incluyeron: las métricas básicas de CloudWatch s
 
 ## Ajustes y decisiones
 
-- **Alcance:** la lecture no trae una consigna de entrega. Se resolvió sin crear recursos en AWS, porque requiere una tarjeta de crédito asociada a la cuenta. La lógica de cada componente se ejecuta en la maqueta local y el costo se estima con la calculadora, que no necesita cuenta.
+- **Alcance:** la práctica del caso GreenSense no trae una consigna de entrega, porque el homework de la lecture es el Avance 4 del Proyecto Integrador. Se resolvió sin crear recursos en AWS, porque requiere una tarjeta de crédito asociada a la cuenta. La lógica de cada componente se ejecuta en la maqueta local y el costo se estima con la calculadora, que no necesita cuenta.
 - **Tutoriales de instalación:** los de Airflow y Spark que acompañan la lecture no se usaron, porque la arquitectura del caso no los incluye. Quedan registradas dos diferencias con las versiones actuales, para cuando se usen:
     - el de Airflow indica los comandos de la versión 2.9 (`airflow webserver`, `airflow db init`), que cambiaron en la 3.x, la que se instala hoy;
     - el de Spark indica Java 11, pero Spark 4 requiere una versión más nueva.

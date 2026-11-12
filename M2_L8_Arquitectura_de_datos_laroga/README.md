@@ -4,6 +4,8 @@
 
 Práctica del Módulo 2 de Henry Data Science. DataShop es un e-commerce que opera en varios países y necesita una arquitectura de datos para tomar decisiones en tiempo real sin descuidar sus procesos diarios. La práctica arma una maqueta local de esa arquitectura con **Python**, **Kafka** y **Docker**: ingesta de eventos en tiempo real, detección de fraude, consolidación nocturna de ventas y automatización de cargas.
 
+> **Homework:** el homework de esta lecture es el **Avance 3 del Proyecto Integrador** del módulo (FleetLogix), que está en su propio repositorio: [ProyectoM2_LauraGarmendia](https://github.com/laroga007/ProyectoM2_LauraGarmendia). Esta carpeta contiene la práctica de la lecture.
+
 ## Contenido
 
 | Archivo | Qué es |

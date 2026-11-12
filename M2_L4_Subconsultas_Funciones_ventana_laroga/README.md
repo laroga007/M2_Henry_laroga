@@ -4,6 +4,8 @@
 
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **PostgreSQL** con DBeaver. Se trabaja sobre `sqlplusdb`, una base de una plataforma de cursos online con estudiantes, cursos, inscripciones, pagos, avances y reseñas.
 
+> **Homework:** el homework de esta lecture es el **Avance 1 del Proyecto Integrador** del módulo (FleetLogix), que está en su propio repositorio: [ProyectoM2_LauraGarmendia](https://github.com/laroga007/ProyectoM2_LauraGarmendia). Esta carpeta contiene la práctica de la lecture.
+
 ## Contenido
 
 | Archivo | Tema |

@@ -4,6 +4,8 @@
 
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **PostgreSQL** con DBeaver. Sobre un modelo estrella de pedidos de una plataforma de delivery se trabajan los tipos de tablas de hechos, las métricas aditivas y derivadas, las dimensiones lentamente cambiantes (SCD), las técnicas avanzadas de modelado y la optimización.
 
+> **Homework:** el homework de esta lecture es el **Avance 2 del Proyecto Integrador** del módulo (FleetLogix), que está en su propio repositorio: [ProyectoM2_LauraGarmendia](https://github.com/laroga007/ProyectoM2_LauraGarmendia). Esta carpeta contiene la práctica de la lecture.
+
 ## Contenido
 
 | Archivo | Qué es |
