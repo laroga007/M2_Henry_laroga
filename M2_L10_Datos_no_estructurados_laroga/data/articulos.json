@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "titulo": "Cómo preparar café con prensa francesa",
+    "categoria": "Gastronomía",
+    "contenido": "Para preparar café con prensa francesa, calienta agua a 95 grados y deja infusionar durante 4 minutos."
+  },
+  {
+    "_id": 2,
+    "titulo": "Guía para cultivar tomates en casa",
+    "categoria": "Jardinería",
+    "contenido": "Cultivar tomates requiere luz solar directa, riego constante y una maceta profunda con buen drenaje."
+  },
+  {
+    "_id": 3,
+    "titulo": "Pasos para crear una cuenta bancaria online",
+    "categoria": "Finanzas",
+    "contenido": "Crear una cuenta bancaria online requiere DNI, comprobante de domicilio y una selfie de validación."
+  },
+  {
+    "_id": 4,
+    "titulo": "Conceptos básicos de inversión en criptomonedas",
+    "categoria": "Criptomonedas",
+    "contenido": "Las criptomonedas son activos digitales descentralizados que se intercambian en redes blockchain."
+  },
+  {
+    "_id": 5,
+    "titulo": "Cómo redactar un currículum efectivo",
+    "categoria": "Empleabilidad",
+    "contenido": "Un currículum efectivo debe enfocarse en logros, habilidades clave y adaptarse a cada puesto."
+  }
+]

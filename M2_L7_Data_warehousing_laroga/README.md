@@ -1,5 +1,7 @@
 # Lecture 7: data warehousing en Snowflake (caso RetailX)
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **Snowflake**, desde la interfaz web (Snowsight). Se arma un data warehouse completo en la nube: warehouses de cómputo, base de datos con capas RAW y DW, carga de archivos CSV desde stages internos, enmascaramiento de datos sensibles, un rol de analista con permisos de solo lectura y consultas de análisis.
 
 ## Contenido
@@ -125,3 +127,5 @@ El dato no se modifica: se enmascara al leerlo. Las políticas de enmascaramient
 ## Alcance
 
 Con 4 ventas, el trabajo es un **ejercicio para practicar la plataforma**: el recorrido es el de un data warehouse real (cómputo, capas, carga, seguridad, permisos y consultas), pero los resultados no permiten sacar conclusiones de negocio.
+
+</div>

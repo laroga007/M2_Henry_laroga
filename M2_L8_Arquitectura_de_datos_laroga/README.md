@@ -1,5 +1,7 @@
 # Lecture 8: fundamentos de arquitectura de datos (caso DataShop)
 
+<div align="justify">
+
 Práctica del Módulo 2 de Henry Data Science. DataShop es un e-commerce que opera en varios países y necesita una arquitectura de datos para tomar decisiones en tiempo real sin descuidar sus procesos diarios. La práctica arma una maqueta local de esa arquitectura con **Python**, **Kafka** y **Docker**: ingesta de eventos en tiempo real, detección de fraude, consolidación nocturna de ventas y automatización de cargas.
 
 ## Contenido
@@ -121,3 +123,5 @@ La regla marca a un cliente con **2 o más compras en menos de 10 segundos**. Co
 ## Alcance
 
 Es una **maqueta para entender cómo se conectan los componentes**, no un sistema en producción: Kafka corre con un solo broker, los datos son pocos y los eventos son simulados. Disponibilidad y escalabilidad, que la teoría trata con replicación, failover y escalado horizontal, quedan fuera de la demo.
+
+</div>

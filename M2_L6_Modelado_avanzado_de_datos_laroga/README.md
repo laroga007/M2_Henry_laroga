@@ -1,5 +1,7 @@
 # Lecture 6: modelado dimensional avanzado (plataforma de delivery)
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **PostgreSQL** con DBeaver. Sobre un modelo estrella de pedidos de una plataforma de delivery se trabajan los tipos de tablas de hechos, las métricas aditivas y derivadas, las dimensiones lentamente cambiantes (SCD), las técnicas avanzadas de modelado y la optimización.
 
 ## Contenido
@@ -143,3 +145,5 @@ Con 10 pedidos de 5 días, es un **ejercicio para practicar las técnicas**, no 
 - No hay datos de **campañas**: en la mini-dimensión figuran como "Sin dato".
 
 El modelo queda preparado para responderlas cuando haya más datos. Por la misma razón, la tabla agregada y el particionamiento no mejoran el rendimiento con 10 filas: son técnicas pensadas para millones de registros.
+
+</div>

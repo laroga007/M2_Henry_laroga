@@ -1,5 +1,7 @@
 # Homework Lecture 7: data warehouse de TravelNow en Snowflake
 
+<div align="justify">
+
 Homework del Módulo 2 (SQL) de Henry Data Science, en **Snowflake**. TravelNow es una agencia de viajes que necesita centralizar sus reservas, sus clientes y su catálogo de destinos en un data warehouse en la nube. Como extra, se crea una vista con el total gastado por destino y se consulta desde **Python**.
 
 ## Contenido
@@ -150,3 +152,5 @@ python consulta_travelnow.py
 ## Alcance
 
 Con 4 reservas de 3 clientes, el trabajo es un **ejercicio para practicar la plataforma**, no un análisis. Cada destino tiene una sola reserva, así que el ranking por destino refleja el precio de cada viaje y no la preferencia de los clientes.
+
+</div>

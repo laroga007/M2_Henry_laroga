@@ -1,0 +1,902 @@
+[
+  {
+    "nombre": "Auto a control remoto",
+    "precio": 57.51,
+    "categoria": "Juguetes",
+    "stock": 113,
+    "fecha_ingreso": {
+      "$date": "2026-06-19T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Sérum de vitamina C",
+    "precio": 16.96,
+    "categoria": "Belleza",
+    "stock": 186,
+    "fecha_ingreso": {
+      "$date": "2026-08-01T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pasta de maní 350 g",
+    "precio": 4.3,
+    "categoria": "Alimentos",
+    "stock": 143,
+    "fecha_ingreso": {
+      "$date": "2026-08-16T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Zapatillas de running",
+    "precio": 103.47,
+    "categoria": "Deportes",
+    "stock": 0,
+    "fecha_ingreso": {
+      "$date": "2025-12-02T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pava eléctrica",
+    "precio": 43.33,
+    "categoria": "Hogar",
+    "stock": 114,
+    "fecha_ingreso": {
+      "$date": "2025-11-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Arroz yamaní 1 kg",
+    "precio": 3.47,
+    "categoria": "Alimentos",
+    "stock": 87,
+    "fecha_ingreso": {
+      "$date": "2025-06-11T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Guantes de boxeo",
+    "precio": 43.22,
+    "categoria": "Deportes",
+    "stock": 39,
+    "fecha_ingreso": {
+      "$date": "2026-04-04T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Mouse óptico",
+    "precio": 8.33,
+    "categoria": "Electrónica",
+    "stock": 117,
+    "fecha_ingreso": {
+      "$date": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Crema hidratante facial",
+    "precio": 24.37,
+    "categoria": "Belleza",
+    "stock": 86,
+    "fecha_ingreso": {
+      "$date": "2026-02-19T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Dulce de leche 400 g",
+    "precio": 4.4,
+    "categoria": "Alimentos",
+    "stock": 42,
+    "fecha_ingreso": {
+      "$date": "2025-11-29T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Alfajores (caja x12)",
+    "precio": 16.05,
+    "categoria": "Alimentos",
+    "stock": 21,
+    "fecha_ingreso": {
+      "$date": "2026-06-08T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Python para análisis de datos",
+    "precio": 55.73,
+    "categoria": "Libros",
+    "stock": 0,
+    "fecha_ingreso": {
+      "$date": "2026-03-02T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Auriculares inalámbricos",
+    "precio": 37.77,
+    "categoria": "Electrónica",
+    "stock": 122,
+    "fecha_ingreso": {
+      "$date": "2026-08-09T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pensar rápido, pensar despacio",
+    "precio": 30.76,
+    "categoria": "Libros",
+    "stock": 86,
+    "fecha_ingreso": {
+      "$date": "2026-05-29T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Smartwatch deportivo",
+    "precio": 96.2,
+    "categoria": "Electrónica",
+    "stock": 76,
+    "fecha_ingreso": {
+      "$date": "2026-04-13T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Chocolate amargo 70%",
+    "precio": 7.57,
+    "categoria": "Alimentos",
+    "stock": 150,
+    "fecha_ingreso": {
+      "$date": "2026-03-26T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Juego de sábanas 2 plazas",
+    "precio": 46.15,
+    "categoria": "Hogar",
+    "stock": 166,
+    "fecha_ingreso": {
+      "$date": "2026-03-23T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Lámpara de escritorio LED",
+    "precio": 24.74,
+    "categoria": "Hogar",
+    "stock": 127,
+    "fecha_ingreso": {
+      "$date": "2026-08-22T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Aceite de oliva 500 ml",
+    "precio": 10.3,
+    "categoria": "Alimentos",
+    "stock": 145,
+    "fecha_ingreso": {
+      "$date": "2026-03-08T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Perfume 100 ml",
+    "precio": 112.1,
+    "categoria": "Belleza",
+    "stock": 102,
+    "fecha_ingreso": {
+      "$date": "2026-01-11T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Set de ollas acero inoxidable",
+    "precio": 161.06,
+    "categoria": "Hogar",
+    "stock": 104,
+    "fecha_ingreso": {
+      "$date": "2025-06-10T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Peluche oso",
+    "precio": 11.4,
+    "categoria": "Juguetes",
+    "stock": 107,
+    "fecha_ingreso": {
+      "$date": "2025-07-24T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Soga de saltar",
+    "precio": 16.97,
+    "categoria": "Deportes",
+    "stock": 125,
+    "fecha_ingreso": {
+      "$date": "2026-02-04T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Tostadora 2 ranuras",
+    "precio": 35.07,
+    "categoria": "Hogar",
+    "stock": 19,
+    "fecha_ingreso": {
+      "$date": "2025-03-15T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Yerba mate 1 kg",
+    "precio": 6.85,
+    "categoria": "Alimentos",
+    "stock": 17,
+    "fecha_ingreso": {
+      "$date": "2025-08-14T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cafetera de filtro",
+    "precio": 51.97,
+    "categoria": "Hogar",
+    "stock": 60,
+    "fecha_ingreso": {
+      "$date": "2026-07-04T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Bloques de construcción",
+    "precio": 73.25,
+    "categoria": "Juguetes",
+    "stock": 117,
+    "fecha_ingreso": {
+      "$date": "2025-11-12T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Galletitas de avena",
+    "precio": 5.44,
+    "categoria": "Alimentos",
+    "stock": 100,
+    "fecha_ingreso": {
+      "$date": "2026-01-10T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Rompecabezas 1000 piezas",
+    "precio": 19.68,
+    "categoria": "Juguetes",
+    "stock": 23,
+    "fecha_ingreso": {
+      "$date": "2025-07-19T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Mochila de trekking 40 L",
+    "precio": 100.22,
+    "categoria": "Deportes",
+    "stock": 68,
+    "fecha_ingreso": {
+      "$date": "2025-09-05T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Jabón de glicerina",
+    "precio": 5.24,
+    "categoria": "Belleza",
+    "stock": 154,
+    "fecha_ingreso": {
+      "$date": "2026-09-17T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pantalón cargo",
+    "precio": 56.8,
+    "categoria": "Indumentaria",
+    "stock": 35,
+    "fecha_ingreso": {
+      "$date": "2025-06-16T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Sapiens: De animales a dioses",
+    "precio": 23.38,
+    "categoria": "Libros",
+    "stock": 24,
+    "fecha_ingreso": {
+      "$date": "2025-06-19T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Banda elástica de resistencia",
+    "precio": 9.4,
+    "categoria": "Deportes",
+    "stock": 66,
+    "fecha_ingreso": {
+      "$date": "2025-11-24T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Tablet 10 pulgadas",
+    "precio": 180.58,
+    "categoria": "Electrónica",
+    "stock": 195,
+    "fecha_ingreso": {
+      "$date": "2026-01-07T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Mat de yoga",
+    "precio": 29.28,
+    "categoria": "Deportes",
+    "stock": 44,
+    "fecha_ingreso": {
+      "$date": "2025-05-27T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cinturón de cuero",
+    "precio": 19.56,
+    "categoria": "Indumentaria",
+    "stock": 150,
+    "fecha_ingreso": {
+      "$date": "2025-12-25T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Plancha a vapor",
+    "precio": 38.9,
+    "categoria": "Hogar",
+    "stock": 64,
+    "fecha_ingreso": {
+      "$date": "2025-09-15T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cubo mágico 3x3",
+    "precio": 15.89,
+    "categoria": "Juguetes",
+    "stock": 88,
+    "fecha_ingreso": {
+      "$date": "2025-04-02T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Campera rompevientos",
+    "precio": 84.98,
+    "categoria": "Indumentaria",
+    "stock": 149,
+    "fecha_ingreso": {
+      "$date": "2025-07-20T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Set de brochas de maquillaje",
+    "precio": 34.19,
+    "categoria": "Belleza",
+    "stock": 105,
+    "fecha_ingreso": {
+      "$date": "2025-06-22T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Raqueta de pádel",
+    "precio": 112.42,
+    "categoria": "Deportes",
+    "stock": 87,
+    "fecha_ingreso": {
+      "$date": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Jean recto",
+    "precio": 42.92,
+    "categoria": "Indumentaria",
+    "stock": 7,
+    "fecha_ingreso": {
+      "$date": "2025-09-01T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Afeitadora eléctrica",
+    "precio": 36.22,
+    "categoria": "Belleza",
+    "stock": 82,
+    "fecha_ingreso": {
+      "$date": "2025-11-10T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Router WiFi 6",
+    "precio": 156.79,
+    "categoria": "Electrónica",
+    "stock": 156,
+    "fecha_ingreso": {
+      "$date": "2025-09-03T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Botella térmica 750 ml",
+    "precio": 28.39,
+    "categoria": "Deportes",
+    "stock": 83,
+    "fecha_ingreso": {
+      "$date": "2026-07-12T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Shampoo sólido",
+    "precio": 14.99,
+    "categoria": "Belleza",
+    "stock": 122,
+    "fecha_ingreso": {
+      "$date": "2025-12-24T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cepillo de dientes eléctrico",
+    "precio": 38.25,
+    "categoria": "Belleza",
+    "stock": 77,
+    "fecha_ingreso": {
+      "$date": "2025-07-10T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Parlante Bluetooth",
+    "precio": 29.95,
+    "categoria": "Electrónica",
+    "stock": 189,
+    "fecha_ingreso": {
+      "$date": "2025-12-02T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Mancuernas 5 kg (par)",
+    "precio": 29.35,
+    "categoria": "Deportes",
+    "stock": 76,
+    "fecha_ingreso": {
+      "$date": "2025-05-03T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Kit de ciencia para chicos",
+    "precio": 32.25,
+    "categoria": "Juguetes",
+    "stock": 96,
+    "fecha_ingreso": {
+      "$date": "2026-09-17T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Rayuela",
+    "precio": 20.78,
+    "categoria": "Libros",
+    "stock": 33,
+    "fecha_ingreso": {
+      "$date": "2026-04-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pelota de fútbol N.º 5",
+    "precio": 22.36,
+    "categoria": "Deportes",
+    "stock": 69,
+    "fecha_ingreso": {
+      "$date": "2026-04-02T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Teclado mecánico",
+    "precio": 131.48,
+    "categoria": "Electrónica",
+    "stock": 166,
+    "fecha_ingreso": {
+      "$date": "2026-05-19T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Protector solar FPS 50",
+    "precio": 17.61,
+    "categoria": "Belleza",
+    "stock": 66,
+    "fecha_ingreso": {
+      "$date": "2026-05-27T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Mix de frutos secos 500 g",
+    "precio": 9.91,
+    "categoria": "Alimentos",
+    "stock": 143,
+    "fecha_ingreso": {
+      "$date": "2026-08-12T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Buzo con capucha",
+    "precio": 58.69,
+    "categoria": "Indumentaria",
+    "stock": 121,
+    "fecha_ingreso": {
+      "$date": "2026-08-13T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Set de pintura infantil",
+    "precio": 21.32,
+    "categoria": "Juguetes",
+    "stock": 71,
+    "fecha_ingreso": {
+      "$date": "2025-07-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Casco de ciclismo",
+    "precio": 63.96,
+    "categoria": "Deportes",
+    "stock": 126,
+    "fecha_ingreso": {
+      "$date": "2026-06-17T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "El túnel",
+    "precio": 11.88,
+    "categoria": "Libros",
+    "stock": 178,
+    "fecha_ingreso": {
+      "$date": "2026-07-06T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Juego de mesa de estrategia",
+    "precio": 29.06,
+    "categoria": "Juguetes",
+    "stock": 199,
+    "fecha_ingreso": {
+      "$date": "2026-01-09T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pendrive 128 GB",
+    "precio": 9.71,
+    "categoria": "Electrónica",
+    "stock": 0,
+    "fecha_ingreso": {
+      "$date": "2026-01-20T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cien años de soledad",
+    "precio": 14.16,
+    "categoria": "Libros",
+    "stock": 171,
+    "fecha_ingreso": {
+      "$date": "2025-03-06T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Monitor 24 pulgadas",
+    "precio": 144.13,
+    "categoria": "Electrónica",
+    "stock": 124,
+    "fecha_ingreso": {
+      "$date": "2025-06-14T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Bicicleta fija",
+    "precio": 358.31,
+    "categoria": "Deportes",
+    "stock": 43,
+    "fecha_ingreso": {
+      "$date": "2025-06-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Ficciones",
+    "precio": 15.41,
+    "categoria": "Libros",
+    "stock": 88,
+    "fecha_ingreso": {
+      "$date": "2026-03-07T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Licuadora 1,5 litros",
+    "precio": 58.07,
+    "categoria": "Hogar",
+    "stock": 94,
+    "fecha_ingreso": {
+      "$date": "2025-06-03T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pelota saltarina",
+    "precio": 5.08,
+    "categoria": "Juguetes",
+    "stock": 107,
+    "fecha_ingreso": {
+      "$date": "2026-10-05T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Disco SSD 1 TB",
+    "precio": 84.86,
+    "categoria": "Electrónica",
+    "stock": 106,
+    "fecha_ingreso": {
+      "$date": "2026-09-10T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "La ciudad y los perros",
+    "precio": 20.88,
+    "categoria": "Libros",
+    "stock": 177,
+    "fecha_ingreso": {
+      "$date": "2025-09-23T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Manual de SQL",
+    "precio": 38.09,
+    "categoria": "Libros",
+    "stock": 110,
+    "fecha_ingreso": {
+      "$date": "2025-05-23T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Esmalte de uñas",
+    "precio": 4.59,
+    "categoria": "Belleza",
+    "stock": 100,
+    "fecha_ingreso": {
+      "$date": "2025-11-26T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Café en grano 1 kg",
+    "precio": 26.12,
+    "categoria": "Alimentos",
+    "stock": 12,
+    "fecha_ingreso": {
+      "$date": "2025-04-08T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cortina blackout",
+    "precio": 40.99,
+    "categoria": "Hogar",
+    "stock": 47,
+    "fecha_ingreso": {
+      "$date": "2025-04-09T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Cargador USB-C 65W",
+    "precio": 19.2,
+    "categoria": "Electrónica",
+    "stock": 34,
+    "fecha_ingreso": {
+      "$date": "2026-01-05T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Almohada viscoelástica",
+    "precio": 52.72,
+    "categoria": "Hogar",
+    "stock": 167,
+    "fecha_ingreso": {
+      "$date": "2025-11-05T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Medias deportivas (pack x3)",
+    "precio": 13.66,
+    "categoria": "Indumentaria",
+    "stock": 62,
+    "fecha_ingreso": {
+      "$date": "2026-03-22T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Notebook 14 pulgadas",
+    "precio": 510.29,
+    "categoria": "Electrónica",
+    "stock": 76,
+    "fecha_ingreso": {
+      "$date": "2025-08-30T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Ventilador de pie",
+    "precio": 70.33,
+    "categoria": "Hogar",
+    "stock": 105,
+    "fecha_ingreso": {
+      "$date": "2025-12-24T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Introducción al machine learning",
+    "precio": 49.43,
+    "categoria": "Libros",
+    "stock": 165,
+    "fecha_ingreso": {
+      "$date": "2026-04-15T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Bufanda de lana",
+    "precio": 34.57,
+    "categoria": "Indumentaria",
+    "stock": 72,
+    "fecha_ingreso": {
+      "$date": "2025-04-19T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Muñeca articulada",
+    "precio": 20.21,
+    "categoria": "Juguetes",
+    "stock": 151,
+    "fecha_ingreso": {
+      "$date": "2026-07-23T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Pista de autos",
+    "precio": 51.61,
+    "categoria": "Juguetes",
+    "stock": 107,
+    "fecha_ingreso": {
+      "$date": "2025-09-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Estadística para todos",
+    "precio": 35.71,
+    "categoria": "Libros",
+    "stock": 11,
+    "fecha_ingreso": {
+      "$date": "2026-03-26T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Zapatillas urbanas",
+    "precio": 105.57,
+    "categoria": "Indumentaria",
+    "stock": 74,
+    "fecha_ingreso": {
+      "$date": "2025-01-26T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "El principito",
+    "precio": 10.63,
+    "categoria": "Libros",
+    "stock": 123,
+    "fecha_ingreso": {
+      "$date": "2026-09-15T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Organizador de cajones",
+    "precio": 10.54,
+    "categoria": "Hogar",
+    "stock": 197,
+    "fecha_ingreso": {
+      "$date": "2026-09-08T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Secador de pelo",
+    "precio": 81.2,
+    "categoria": "Belleza",
+    "stock": 149,
+    "fecha_ingreso": {
+      "$date": "2026-04-03T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Té verde (caja x20)",
+    "precio": 7.35,
+    "categoria": "Alimentos",
+    "stock": 167,
+    "fecha_ingreso": {
+      "$date": "2025-12-01T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Camisa de lino",
+    "precio": 71.09,
+    "categoria": "Indumentaria",
+    "stock": 195,
+    "fecha_ingreso": {
+      "$date": "2026-09-04T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Planchita alisadora",
+    "precio": 40.46,
+    "categoria": "Belleza",
+    "stock": 137,
+    "fecha_ingreso": {
+      "$date": "2026-05-07T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Vestido de verano",
+    "precio": 45.83,
+    "categoria": "Indumentaria",
+    "stock": 48,
+    "fecha_ingreso": {
+      "$date": "2026-01-05T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Miel orgánica 500 g",
+    "precio": 9.53,
+    "categoria": "Alimentos",
+    "stock": 85,
+    "fecha_ingreso": {
+      "$date": "2025-01-17T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Granola artesanal 400 g",
+    "precio": 5.22,
+    "categoria": "Alimentos",
+    "stock": 136,
+    "fecha_ingreso": {
+      "$date": "2025-06-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Aspiradora robot",
+    "precio": 159.23,
+    "categoria": "Hogar",
+    "stock": 126,
+    "fecha_ingreso": {
+      "$date": "2025-09-02T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Webcam Full HD",
+    "precio": 71.34,
+    "categoria": "Electrónica",
+    "stock": 66,
+    "fecha_ingreso": {
+      "$date": "2025-10-18T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Hábitos atómicos",
+    "precio": 15.3,
+    "categoria": "Libros",
+    "stock": 26,
+    "fecha_ingreso": {
+      "$date": "2025-12-25T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Drone para principiantes",
+    "precio": 97.13,
+    "categoria": "Juguetes",
+    "stock": 128,
+    "fecha_ingreso": {
+      "$date": "2026-04-23T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Gorra de gabardina",
+    "precio": 20.44,
+    "categoria": "Indumentaria",
+    "stock": 10,
+    "fecha_ingreso": {
+      "$date": "2025-10-24T00:00:00Z"
+    }
+  },
+  {
+    "nombre": "Remera de algodón",
+    "precio": 23.64,
+    "categoria": "Indumentaria",
+    "stock": 38,
+    "fecha_ingreso": {
+      "$date": "2026-06-17T00:00:00Z"
+    }
+  }
+]

@@ -1,5 +1,7 @@
 # Lecture 9: arquitectura en la nube con AWS (caso GreenSense)
 
+<div align="justify">
+
 Práctica del Módulo 2 de Henry Data Science. GreenSense opera estaciones sensoriales en ciudades de América Latina que miden temperatura, humedad y partículas finas (PM2.5), y registran eventos críticos como desconexiones o alertas por contaminación. Necesita pasar de una arquitectura manual y local a una en la nube que escale, esté disponible 24/7, automatice la ingesta, alerte ante eventos críticos y registre el linaje de los datos.
 
 El trabajo tiene tres partes:
@@ -235,3 +237,5 @@ CloudWatch y AWS Backup no se incluyeron: las métricas básicas de CloudWatch s
 ## Alcance
 
 Con 3 estaciones y 4 mediciones de 15 minutos, el trabajo es un **ejercicio de diseño y estimación**, no un análisis ambiental. Los supuestos de la estimación (50 estaciones, una medición cada 5 minutos) son una proyección para dimensionar la arquitectura.
+
+</div>

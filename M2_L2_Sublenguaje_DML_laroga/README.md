@@ -1,5 +1,7 @@
 # Lecture 2: sublenguaje DML
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en DBeaver. Se trabaja con las cláusulas para cargar, consultar, modificar y borrar datos: `INSERT`, `SELECT`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`, `UPDATE`, `DELETE` y `ALTER TABLE`.
 
 ## Contenido
@@ -48,3 +50,5 @@ No conviene ejecutarlo completo de una vez: la prueba del Extra 3 inserta un tur
 - **Verificar antes de cambiar la estructura:** antes del `ALTER TABLE` se cuenta cuántas fechas nulas hay. Si hubiera alguna, la restricción `NOT NULL` no se podría aplicar.
 - **Consulta generada por IA:** el pedido no aclaraba el motor y la IA devolvió tres versiones (MySQL, SQL Server y PostgreSQL). Se usó la de PostgreSQL, porque `AGE()` tiene en cuenta si la persona ya cumplió años en el año en curso.
 - **El resultado del `DELETE` depende del día de ejecución**, porque compara con `CURRENT_DATE`. Ejecutado después del 2 de octubre de 2026, solo borra el turno del 20 de noviembre.
+
+</div>

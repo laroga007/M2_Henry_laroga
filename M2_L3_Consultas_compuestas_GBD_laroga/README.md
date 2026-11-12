@@ -1,5 +1,7 @@
 # Lecture 3: consultas compuestas y gestión de bases de datos
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **PostgreSQL** con DBeaver. Se trabaja sobre `ventasdb`, una base de ventas con clientes, productos, órdenes, ítems y un registro de auditoría.
 
 ## Contenido
@@ -51,3 +53,5 @@ Las tres primeras partes arman los indicadores **RFM** de cada cliente: hace cu�
 - **Datos nuevos antes del extra mile:** con los datos originales (3 clientes, todo en abril de 2024) la vista por trimestre y la segmentación no tenían qué mostrar. Los datos nuevos fueron generados con IA e incluyen dos emails con errores a propósito, para probar la detección.
 - **Segmento "Sin compras":** la consigna no contemplaba clientes con 0 órdenes. Se agregó ese segmento en lugar de dejarlos en `NULL` o clasificarlos como "Nuevo".
 - **Ventas "acumuladas":** se interpretaron como el total de cada trimestre. Un acumulado progresivo requiere funciones de ventana, que se ven en la Lecture 4.
+
+</div>

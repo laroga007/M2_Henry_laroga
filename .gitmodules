@@ -1,0 +1,9 @@
+[submodule "M2_L1_Introduccion_bases_datos_y_DDL_laroga/hospital_bd"]
+	path = M2_L1_Introduccion_bases_datos_y_DDL_laroga/hospital_bd
+	url = https://github.com/laroga007/hospital_bd.git
+[submodule "M2_L1_Introduccion_bases_datos_y_DDL_laroga/foodtrack"]
+	path = M2_L1_Introduccion_bases_datos_y_DDL_laroga/foodtrack
+	url = https://github.com/laroga007/foodtrack.git
+[submodule "M2_L1_Introduccion_bases_datos_y_DDL_laroga/educursos"]
+	path = M2_L1_Introduccion_bases_datos_y_DDL_laroga/educursos
+	url = https://github.com/laroga007/educursos.git

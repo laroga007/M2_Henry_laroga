@@ -1,5 +1,7 @@
 # Módulo 2: SQL y bases de datos
 
+<div align="justify">
+
 Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por lecture. Cada carpeta tiene sus scripts y un README con el contenido, cómo ejecutarlo y las decisiones tomadas.
 
 ## Herramientas
@@ -8,6 +10,7 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 - **PostgreSQL** como motor principal. Los tutoriales de las lectures 1 y 2 están en **SQL Server**.
 - **Docker** para levantar los motores en la computadora y Kafka en la Lecture 8.
 - **Snowflake** (interfaz web Snowsight) para el data warehouse en la nube de la Lecture 7.
+- **MongoDB** (en Docker) y **MongoDB Compass** para las bases NoSQL de la Lecture 10.
 - **VS Code** y **Git** para Python y control de versiones.
 
 ## Lectures
@@ -23,10 +26,11 @@ Trabajos del Módulo 2 de la carrera de Data Science de Henry, organizados por l
 | [Lecture 7](M2_L7_Data_warehousing_laroga) | Data warehousing en Snowflake | Warehouses, stages, `COPY INTO`, capas RAW y DW, enmascaramiento de datos, roles y permisos (RetailX), y homework TravelNow con una vista consultada desde Python |
 | [Lecture 8](M2_L8_Arquitectura_de_datos_laroga) | Fundamentos de arquitectura de datos | Maqueta de la arquitectura de DataShop: ingesta en tiempo real con Kafka en Docker, detección de fraude, ETL batch de ventas diarias y automatización con Python |
 | [Lecture 9](M2_L9_Arquitectura_en_la_nube_laroga) | Arquitectura en la nube con AWS | Diseño de la arquitectura de GreenSense (API Gateway, S3, Lambda, RDS, DynamoDB), maqueta local con validación, alertas y linaje en PostgreSQL, y estimación de costos en la AWS Pricing Calculator |
+| [Lecture 10](M2_L10_Datos_no_estructurados_laroga) | Datos no estructurados y bases NoSQL | MongoDB con Compass: ejemplo de la lecture (asistente de conocimiento con índice de texto y búsqueda semántica con embeddings) y homework de tienda virtual (CRUD, índices, agregaciones e índice TTL) |
 
 ## Proyectos de la Lecture 1
 
-Estos trabajos tienen su propio repositorio:
+Estos trabajos tienen su propio repositorio y están incluidos como submódulos dentro de la carpeta de la Lecture 1:
 
 | Proyecto | Qué es |
 |---|---|
@@ -41,3 +45,5 @@ En la carpeta de la Lecture 1 quedan además el script original de Hospital_BD e
 - Los archivos llevan el prefijo del módulo y la lecture (`M2_L3_...`) y terminan en `_laroga`.
 - Cada script aclara en su encabezado en qué base se ejecuta y si fue adaptado de la consigna.
 - Cuando la consigna tiene una inconsistencia, se resuelve y se explica en el script y en el README de la lecture.
+
+</div>

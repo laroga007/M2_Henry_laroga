@@ -1,5 +1,7 @@
 # Homework Lecture 5: modelo dimensional para MusicFlow
 
+<div align="justify">
+
 Homework del Módulo 2 (SQL) de Henry Data Science. Es un trabajo de **diseño**: a partir de la descripción del sistema transaccional (OLTP) de MusicFlow se propone un modelo dimensional. No incluye datos ni consultas para ejecutar.
 
 ## El caso
@@ -195,3 +197,5 @@ Porque cada modelo está pensado para una tarea distinta. El OLTP está normaliz
 ### 3. ¿Cómo facilita el diseño la autogestión de reportes por parte de usuarios no técnicos?
 
 El modelo usa el lenguaje del negocio: las tablas se llaman como lo que el equipo ya conoce (usuario, canción, tiempo), los atributos vienen listos para agrupar (rango de edad, franja horaria) y las métricas están concentradas en las tablas de hechos. Conectado a una herramienta como Power BI, un usuario puede armar un reporte arrastrando campos como "género musical" y "país", sin escribir SQL ni conocer la estructura del sistema transaccional.
+
+</div>

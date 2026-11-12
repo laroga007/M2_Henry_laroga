@@ -1,10 +1,12 @@
 # Lecture 1: introducción a las bases de datos y DDL
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en DBeaver. Se trabaja con la creación de bases y tablas, los tipos de datos, las claves primarias y foráneas y las restricciones (`UNIQUE`, `CHECK`, `NOT NULL`), y con las diferencias entre motores SQL.
 
 ## Proyectos
 
-Los trabajos de esta lecture tienen su propio repositorio:
+Cada trabajo tiene su propio repositorio y está incluido en esta carpeta como submódulo: las carpetas `foodtrack`, `educursos` y `hospital_bd` llevan a su repositorio.
 
 | Proyecto | Motor | Qué es |
 |---|---|---|
@@ -25,3 +27,5 @@ Los trabajos de esta lecture tienen su propio repositorio:
 - **Cada motor tiene su dialecto:** los tipos de texto, el autoincremento, la forma de cambiar de base y la escritura de las claves foráneas cambian entre SQL Server, PostgreSQL, MySQL y SQLite.
 - **Las restricciones protegen los datos:** un `INSERT` con un dato inválido se rechaza completo, y eso permite detectar errores en el origen.
 - **Un script guardado es la receta de la base:** la base es el resultado, pero sin el script no se puede repetir, corregir ni explicar cómo se llegó a ella.
+
+</div>

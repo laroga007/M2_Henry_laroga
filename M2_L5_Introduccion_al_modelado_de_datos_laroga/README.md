@@ -1,5 +1,7 @@
 # Lecture 5: modelado dimensional (caso RetailX)
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **PostgreSQL** con DBeaver. A partir de un dataset plano de ventas se construye un **modelo estrella** y se responden las preguntas de un stakeholder (el CFO de RetailX).
 
 ## Contenido
@@ -144,3 +146,4 @@ Con 50 ventas de una sola semana, este trabajo es un **ejercicio para aplicar la
 
 Los scripts `RetailX_*.sql` de la clase ilustran la teoría (OLTP vs. dimensional, consultas sobre estrella, variante copo de nieve), pero usan tablas que no existen en el dataset y asumen diseños distintos entre sí. Las consultas del paso 6 de este trabajo son esas mismas ideas, adaptadas al modelo construido con los datos reales.
 
+</div>

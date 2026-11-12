@@ -1,5 +1,7 @@
 # Lecture 4: subconsultas, CTE, funciones de ventana y optimización
 
+<div align="justify">
+
 Práctica del Módulo 2 (SQL) de Henry Data Science, en **PostgreSQL** con DBeaver. Se trabaja sobre `sqlplusdb`, una base de una plataforma de cursos online con estudiantes, cursos, inscripciones, pagos, avances y reseñas.
 
 ## Contenido
@@ -42,3 +44,5 @@ La base viene con datos sucios a propósito, y varios resultados se explican por
 - **`EXPLAIN ANALYZE` sigue mostrando `Seq Scan` después del índice:** con 8 filas recorrer la tabla es más rápido que usar el índice. En tablas grandes el plan cambia.
 - **Vista generada por IA corregida:** la propuesta usaba tablas inexistentes y unía pagos, avances y reseñas a la vez, lo que multiplica las filas e infla las sumas. Se reemplazó por una vista que calcula cada métrica por separado y recién después las une.
 - **Sin `BEGIN`/`COMMIT`:** DBeaver trabaja en modo Auto-commit.
+
+</div>
